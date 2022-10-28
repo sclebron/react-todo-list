@@ -1,8 +1,9 @@
 import React from 'react'
-import TodoList from './TodoList'
 
-export default function TodoList() {
+export default function TodoList({ todos }) {
   return (
-    <div>TodoList</div>
+    <div>
+        {todos.length}
+    </div>
   )
 }
